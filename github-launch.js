@@ -4818,6 +4818,10 @@ chrome.omnibox.onInputChanged.addListener(
   });
 
 chrome.omnibox.onInputEntered.addListener(function(text) {
+	// for now just go to the user profile
+	if (text.substring(0, 1) == "@")
+		text = text.substring(1);
+	
     chrome.tabs.getSelected(null, function(tab) {
         chrome.tabs.update(tab.id, {url : 'https://github.com/' + text});
     });
