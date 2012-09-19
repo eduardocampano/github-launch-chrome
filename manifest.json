@@ -1,0 +1,19 @@
+{
+  "name": "GitHub Launch",
+  "description" : "To use, type 'gh' plus the github command into the Omnibox.",
+  "version": "0.1",
+  "background": {
+    "scripts": ["github-launch.js"]
+  },
+  "omnibox": { "keyword" : "gh" },
+  "manifest_version": 2,
+  "icons": { 
+        "16": "icon-small.png",
+        "48": "icon-medium.png",
+        "128": "icon-big.png"
+  },
+  "permissions": [
+      "tabs",
+	  "https://github.com/"
+  ]
+}

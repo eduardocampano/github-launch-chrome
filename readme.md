@@ -1,0 +1,1 @@
+# GitHub Command Bar Extension for Google ChromeThis is an experimental github lanch integration with Google Chrome## InstallationYou can load the extension from Chrome's Extension tab using *Load unpacked extension...* option once you have enabled *Developer mode*. ## UsageJust type 'gh' in the omnibox followed by your github command## TODO* Support all commands
