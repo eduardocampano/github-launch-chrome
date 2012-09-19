@@ -3,7 +3,7 @@
   "description" : "To use, type 'gh' plus the github command into the Omnibox.",
   "version": "0.1",
   "background": {
-    "scripts": ["github-launch.js"]
+	"page" : "background.html"
   },
   "omnibox": { "keyword" : "gh" },
   "manifest_version": 2,
