@@ -1,7 +1,8 @@
 {
-  "name": "GitHub Launch",
-  "description" : "To use, type 'gh' plus the github command into the Omnibox.",
+  "name": "GitHub Command Bar (unofficial)",
   "version": "0.1",
+  "description" : "To use, type 'gh' plus the github command into the Omnibox.", 
+  "homepage_url": "https://github.com/eduardocampano/github-launch-chrome",
   "background": {
 	"page" : "background.html"
   },
